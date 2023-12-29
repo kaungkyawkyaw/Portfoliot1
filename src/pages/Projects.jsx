@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <div className=" h-screen py-36 flex items-center px-4 xl:px-40">
       <div className=" container mx-auto">
-        <div className=" flex flex-col mt-20 xl:flex-row gap-x-8">
+        <div className=" flex flex-col my-20 xl:flex-row gap-x-8">
           <div className=" text-center flex xl:w-[30vw] flex-col lg:text-left my-4 xl:mb-0 ">
             <motion.h1
               initial={{ translateY: "-20" }}
