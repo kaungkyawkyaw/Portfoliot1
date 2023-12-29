@@ -11,7 +11,7 @@ const Contact = () => {
                 </h1>
                 <form className=' flex-1 flex flex-col gap-6  mx-auto'>
                     <div className="flex gap-x-6 w-full">
-                        <Input autoFocus type="text" className='' placeholder='Name' />
+                        <Input  type="text" className='' placeholder='Name' />
                         <Input type="text" placeholder='Email' />
                     </div>
                     <Input type="text" placeholder='Subject' />
