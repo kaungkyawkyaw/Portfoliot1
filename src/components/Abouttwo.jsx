@@ -10,7 +10,7 @@ const Abouttwo = () => {
     
   return (
     <Tabs color="violet"  defaultValue="skill">
-    <Tabs.List  className=' flex  gap-4 xl:gap-x-8 mx-auto  xl:mx-0'>
+    <Tabs.List  >
         
         <Tabs.Tab  value="education" >
         <div className=' hover:text-violet-600'>
@@ -25,7 +25,7 @@ const Abouttwo = () => {
 
         <Tabs.Tab  value="other">
         <div className=' hover:text-violet-600'>
-            Other Knowledge
+            Other
         </div> 
         </Tabs.Tab>
     </Tabs.List>
