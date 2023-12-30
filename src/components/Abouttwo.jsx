@@ -9,7 +9,7 @@ import { RiBootstrapLine } from "react-icons/ri";
 const Abouttwo = () => {
     
   return (
-    <Tabs color="violet" defaultValue="skill">
+    <Tabs color="violet"  defaultValue="skill">
     <Tabs.List  className=' flex  gap-4 xl:gap-x-8 mx-auto  xl:mx-0'>
         
         <Tabs.Tab  value="education" >

@@ -30,7 +30,7 @@ const Home = () => {
       </div>
       <div className=" right-0 bottom-0  ">
         {/* image */}
-          <img className=" hidden w-full xl:flex absolute h-screen right-0 bottom-0  mix-blend-color-dodge " src={Image} alt="" />
+          {/* <img className=" hidden w-full xl:flex absolute h-screen right-0 bottom-0  mix-blend-color-dodge " src={Image} alt="" /> */}
       <Tsparticles/>
           {/* avatar */}
           {/* <div className="hidden absolute -bottom-32 left-[55%] xl:flex xl:max-w-none translate-z-0 w-full h-full ">
