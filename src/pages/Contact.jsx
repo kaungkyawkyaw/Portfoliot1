@@ -3,15 +3,16 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className=' h-screen px-5'>
-        <div className=' container mx-auto py-32 text-center flex items-center justify-center h-full'>
-            <div className=' flex flex-col mt-28 w-full max-w-[500px]'>
-                <h1 className=' text-2xl font-bold text-center mb-10'>
+    <div className=' h-screen sm:overflow-hidden'>
+        <div className=' container mx-auto pt-24 bg-violet-950  text-center flex justify-center h-full'>
+            <div className=' flex flex-col gap-y-3 w-full bg-violet-950 '>
+                <h1 className=' text-2xl mt-5 font-bold text-center'>
                     Let's <span className=' text-red-600'>connect.</span>
-                </h1>
-                <form className=' flex-1 flex flex-col gap-6  mx-auto'>
+                </h1>      
+                <form className=' bg-violet-950' >
+                    <div className=' flex-1 flex flex-col max-w-[420px] bg-violet-950 gap-6 mx-auto w-full h-[520px] px-5' >
                     <div className="flex gap-x-6 w-full">
-                        <Input  type="text" className='' placeholder='Name' />
+                        <Input  type="text" placeholder='Name' />
                         <Input type="text" placeholder='Email' />
                     </div>
                     <Input type="text" placeholder='Subject' />
@@ -20,7 +21,9 @@ const Contact = () => {
                         <span className=' group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500'>Let's Talk</span>
                         <BsArrowRight className=' -translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 text-[22px] transition-all duration-300 absolute' />
                     </button>
+                    </div>
                 </form>
+                
             </div>
         </div>
     </div>

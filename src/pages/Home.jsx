@@ -6,7 +6,7 @@ import {motion} from "framer-motion"
 const Home = () => {
   return (
     <>
-    <div className=" h-screen xl:px-40">
+    <div className=" h-screen overflow-hidden xl:px-40">
       <div className=" w-full h-full">
       <motion.div initial={{ translateX: '-500' }}
   animate={{ translateX: "0" }} transition={{ duration: 2 }}  className=" text-center xl:text-left flex  flex-col justify-center xl:pt-40 h-full container mx-auto">
@@ -33,10 +33,10 @@ const Home = () => {
           <img className=" hidden w-full xl:flex absolute h-screen right-0 bottom-0  mix-blend-color-dodge " src={Image} alt="" />
       <Tsparticles/>
           {/* avatar */}
-          <div className="hidden absolute -bottom-32 left-[55%] xl:flex xl:max-w-none translate-z-0 w-full h-full ">
+          {/* <div className="hidden absolute -bottom-32 left-[55%] xl:flex xl:max-w-none translate-z-0 w-full h-full ">
             <motion.img initial={{ translateY: '50' }}
   animate={{ translateY: "0" }} transition={{ duration: 2 }} src={stickerimg}  alt="" />
-          </div>
+          </div> */}
         
       </div>
      

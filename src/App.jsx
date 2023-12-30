@@ -4,8 +4,7 @@ import Path from "./routes/Path"
 const App = () => {
   return (
     <>
-    <div className="w-full h-screen overflow-hidden text-white bg-violet-950 relative">
-
+    <div className="w-full max-h-screen text-white bg-violet-950 relative">
     <Layout>
       <Path/>
     </Layout>

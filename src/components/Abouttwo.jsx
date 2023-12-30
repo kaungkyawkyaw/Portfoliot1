@@ -10,7 +10,7 @@ const Abouttwo = () => {
     
   return (
     <Tabs color="violet" defaultValue="skill">
-    <Tabs.List  className=' flex gap-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
+    <Tabs.List  className=' flex  gap-4 xl:gap-x-8 mx-auto  xl:mx-0'>
         
         <Tabs.Tab  value="education" >
         <div className=' hover:text-violet-600'>
@@ -31,7 +31,7 @@ const Abouttwo = () => {
     </Tabs.List>
    
     <Tabs.Panel value="education">
-     <div className=' mx-10'>
+     <div className=' mx-10 '>
      <div className='  text-2xl font-semibold'>My Educational Pathway</div>    
         <br />
         <div className=' flex flex-col justify-start items-start'>
@@ -61,10 +61,9 @@ const Abouttwo = () => {
     </Tabs.Panel>
 
     <Tabs.Panel value="skill">
-      <div>
-        <div className=' text-2xl font-semibold'>
+        <h1 className=' text-2xl font-semibold'>
             Front-End Development Skills
-        </div>
+        </h1>
         <div className=' my-5 flex flex-wrap justify-center gap-3 items-center'>
             <div className=' flex justify-center items-center  bg-red-200/10 backdrop-blur-lg w-28 h-24 rounded-lg'>
                 <div className='flex flex-col items-center'>
@@ -91,7 +90,7 @@ const Abouttwo = () => {
                 </div>
             </div>
         </div> 
-      </div>
+      
     </Tabs.Panel>
     
     <Tabs.Panel value="other">
