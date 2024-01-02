@@ -4,9 +4,9 @@ import { GoArrowRight } from "react-icons/go";
 
 const Services = () => {
   return (
-    <div className=" h-screen overflow-hidden py-36 flex items-center px-4 xl:px-40">
-      <div className=" container mx-auto">
-        <div className=" flex flex-col mt-20 xl:flex-row gap-x-8">
+    <div className=" h-screen sm:overflow-hidden bg-violet-950 flex items-center xl:px-40">
+      <div className=" container bg-violet-950 px-4 mx-auto">
+        <div className=" flex flex-col mt-56 sm:mt-20 xl:flex-row gap-x-8">
           <div className=" text-center flex xl:w-[30vw] flex-col lg:text-left my-4 xl:mb-0 ">
             <motion.h1
               initial={{ translateY: "-20" }}
@@ -41,7 +41,7 @@ const Services = () => {
             initial={{ translateX: "400" }}
             animate={{ translateX: "0" }}
             transition={{ duration: 2 }}
-            className=" w-full xl:max-w-[65%]"
+            className=" w-full h-[350px] xl:max-w-[65%]"
           >
             <div className="px-6 py-8 h-max hover:bg-[rgba(89,65,169,0.15)] rounded-lg bg-[rgba(65,47,123,0.15)]">
               <Carousel

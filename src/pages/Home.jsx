@@ -3,6 +3,7 @@ import Tsparticles from "../components/Tsparticles"
 import Image from "../images/desktop-wallpaper-pink-and-purple-texture-abstract.jpg"
 import stickerimg from "../images/sticker.webp"
 import {motion} from "framer-motion"
+import { TypeAnimation } from 'react-type-animation'
 const Home = () => {
   return (
     <>
@@ -13,7 +14,11 @@ const Home = () => {
         {/* text */}
        <div>
         {/* title */}
-        <h1  className=" text-xl font-bold mb-5">Transforming Ideas <br /> Into <span className=" text-red-500">Digital Reality</span></h1>
+        <h1  className=" text-xl font-bold mb-5">Hello,I'm <br /> <span className=" text-red-500"> <TypeAnimation
+  sequence={['Web Developer', 500, 'Junior Front-End Developer', 500]}
+  style={{ fontSize: '1em' }}
+  repeat={Infinity}
+/></span></h1>
         {/* subtitle */}
         <p className=" mx-auto max-w-sm xl:max-w-xl xl:mx-0 mb-10 xl:mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus, quis et voluptates saepe deserunt, sint quisquam maxime magnam mollitia officiis beatae corporis eum voluptatem error neque. Aliquam, voluptas maxime.</p>
         {/* btn */}

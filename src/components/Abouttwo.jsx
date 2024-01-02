@@ -89,8 +89,7 @@ const Abouttwo = () => {
                 <div>React</div>
                 </div>
             </div>
-        </div> 
-      
+        </div>   
     </Tabs.Panel>
     
     <Tabs.Panel value="other">
