@@ -31,7 +31,7 @@ const Abouttwo = () => {
     </Tabs.List>
    
     <Tabs.Panel value="education">
-     <div className=' mx-10 '>
+     {/* <div className=' mx-10 '>
      <div className='  text-2xl font-semibold'>My Educational Pathway</div>    
         <br />
         <div className=' flex flex-col justify-start items-start'>
@@ -57,7 +57,7 @@ const Abouttwo = () => {
         <small>2022<span>(December)</span>-2023<span>(May)</span></small>
         </div>
     
-     </div>
+     </div> */}
     </Tabs.Panel>
 
     <Tabs.Panel value="skill">
