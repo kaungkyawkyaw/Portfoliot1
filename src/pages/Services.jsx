@@ -44,12 +44,7 @@ const Services = () => {
             className=" w-full h-[350px] xl:max-w-[65%]"
           >
             <div className="px-6 py-8 h-max hover:bg-[rgba(89,65,169,0.15)] rounded-lg bg-[rgba(65,47,123,0.15)]">
-              <Carousel
-                loop
-                withControls={false}
-                withIndicators
-                height={200}
-              >
+              <Carousel loop withControls={false} withIndicators height={200}>
                 <Carousel.Slide>
                   <div>
                     <h1 className=" text-red-600 font-semibold text-xl mb-4">
@@ -77,18 +72,26 @@ const Services = () => {
 
                 <Carousel.Slide>
                   <div>
-                    <h1 className=" mb-4 text-red-600 font-semibold text-xl">Clean Code</h1>
+                    <h1 className=" mb-4 text-red-600 font-semibold text-xl">
+                      Clean Code
+                    </h1>
                     <p>
-                      I can write code in a way that is easy for others
-                      to understand.
+                      I can write code in a way that is easy for others to
+                      understand.
                     </p>
                   </div>
                 </Carousel.Slide>
 
                 <Carousel.Slide>
                   <div>
-                    <h1 className=" mb-4 text-red-600 font-semibold text-xl">Maintenance</h1>
-                    <p></p>
+                    <h1 className=" mb-4 text-red-600 font-semibold text-xl">
+                      Maintenance
+                    </h1>
+                    <p>
+                      Best practices for coding standards, such as using
+                      meaningful variable names, proper indentation, and
+                      comments where necessary.
+                    </p>
                   </div>
                 </Carousel.Slide>
               </Carousel>
