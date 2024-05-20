@@ -15,12 +15,12 @@ const Home = () => {
        <div>
         {/* title */}
         <h1  className=" text-xl font-bold mb-5">Hello,I'm <br /> <span className=" text-red-500"> <TypeAnimation
-  sequence={['Web Developer', 500, 'Junior Front-End Developer', 500]}
+  sequence={['Junior Web Developer', 500, 'Junior Front-End Developer', 500]}
   style={{ fontSize: '1em' }}
   repeat={Infinity}
 /></span></h1>
         {/* subtitle */}
-        <p className=" mx-auto max-w-sm xl:max-w-xl xl:mx-0 mb-10 xl:mb-16"> I'm Kaung Kyaw. I have two years of experience as a manual
+        <p className=" mx-auto max-w-sm xl:max-w-xl xl:mx-0 mb-10 xl:mb-16">I have two years of experience as a manual
               software tester, where I developed a strong eye for detail and
               quality. Recently, I have transitioned into web
               development/design, where I have gained proficiency in HTML, CSS,
@@ -35,7 +35,7 @@ const Home = () => {
         </Link>
         </div>
         <Link to={"/projects"}>
-        <button className=" py-2 px-3 rounded-lg border  bg-red-200/10 backdrop-blur-lg  hidden xl:flex ">My Project</button>
+        <button className=" py-2 px-3 rounded-lg border  bg-red-200/10 backdrop-blur-lg  hidden xl:flex ">My Projects</button>
         </Link>
        </div>
       </motion.div>

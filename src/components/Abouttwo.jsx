@@ -12,11 +12,11 @@ const Abouttwo = () => {
     <Tabs color="violet"  defaultValue="skill">
     <Tabs.List  >
         
-        <Tabs.Tab  value="education" >
+        {/* <Tabs.Tab  value="education" >
         <div className=' hover:text-violet-600'>
             Education
         </div>
-        </Tabs.Tab>
+        </Tabs.Tab> */}
         <Tabs.Tab  value="skill" >
         <div className=' hover:text-violet-600'>
             Skills
@@ -30,8 +30,8 @@ const Abouttwo = () => {
         </Tabs.Tab>
     </Tabs.List>
    
-    <Tabs.Panel value="education">
-     {/* <div className=' mx-10 '>
+    {/* <Tabs.Panel value="education">
+     <div className=' mx-10 '>
      <div className='  text-2xl font-semibold'>My Educational Pathway</div>    
         <br />
         <div className=' flex flex-col justify-start items-start'>
@@ -57,8 +57,8 @@ const Abouttwo = () => {
         <small>2022<span>(December)</span>-2023<span>(May)</span></small>
         </div>
     
-     </div> */}
-    </Tabs.Panel>
+     </div>
+    </Tabs.Panel> */}
 
     <Tabs.Panel value="skill">
         <h1 className=' text-2xl font-semibold'>

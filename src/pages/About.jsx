@@ -16,6 +16,8 @@ const About = () => {
             </h1>
             <p className=" max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
               {" "}
+              I started studying in 2020 because I wanted to become a Web Developer.For various reasons,Worked as a software tester for over a year.
+              At that time,I continued to study the full stack developer course.
              {" "}
             </p>
           </motion.div>
