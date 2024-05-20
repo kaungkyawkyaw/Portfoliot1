@@ -20,7 +20,14 @@ const Home = () => {
   repeat={Infinity}
 /></span></h1>
         {/* subtitle */}
-        <p className=" mx-auto max-w-sm xl:max-w-xl xl:mx-0 mb-10 xl:mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus, quis et voluptates saepe deserunt, sint quisquam maxime magnam mollitia officiis beatae corporis eum voluptatem error neque. Aliquam, voluptas maxime.</p>
+        <p className=" mx-auto max-w-sm xl:max-w-xl xl:mx-0 mb-10 xl:mb-16"> I'm Kaung Kyaw. I have two years of experience as a manual
+              software tester, where I developed a strong eye for detail and
+              quality. Recently, I have transitioned into web
+              development/design, where I have gained proficiency in HTML, CSS,
+              JavaScript, Reactjs and responsive design. I am passionate about
+              creating user-friendly web applications and am eager to bring my
+              problem-solving skills and attention to detail to a junior web
+              developer/designer role.</p>
         {/* btn */}
         <div className=" flex justify-center xl:hidden  relative">
         <Link to={"/projects"}>

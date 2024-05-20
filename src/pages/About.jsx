@@ -16,14 +16,7 @@ const About = () => {
             </h1>
             <p className=" max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
               {" "}
-              I'm Kaung Kyaw. I have two years of experience as a manual
-              software tester, where I developed a strong eye for detail and
-              quality. Recently, I have transitioned into web
-              development/design, where I have gained proficiency in HTML, CSS,
-              JavaScript, Reactjs and responsive design. I am passionate about
-              creating user-friendly web applications and am eager to bring my
-              problem-solving skills and attention to detail to a junior web
-              developer/designer role.{" "}
+             {" "}
             </p>
           </motion.div>
           <motion.div
